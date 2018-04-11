@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "1521026367582",
+      "text": "Edit task",
+      "completed": false
+    },
+    {
+      "id": "1521026367593",
+      "text": "Delete task",
+      "completed": false
+    },
+    {
+      "id": "1521026367604",
+      "text": "Mark task",
+      "completed": false
+    },
+    {
+      "id": "1521026367615",
+      "text": "Add task",
+      "completed": false
+    }
+  ]
+}

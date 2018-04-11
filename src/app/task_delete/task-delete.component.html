@@ -1,0 +1,11 @@
+<div class="container">
+  <h3 class="text-center mt-2 mb-2">Delete Task</h3>
+
+  <h5>You are going to delete the following task:</h5>
+  <p>{{task.text}}</p>
+ 
+  <button class="btn btn-outline-primary" (click)="goBack()">Cancel</button>
+  <button class="btn btn-outline-primary" (click)="deleteTask()">Delete</button>
+
+  <div *ngIf="errorMessage" class="danger">{{errorMessage}}</div>
+</div>
